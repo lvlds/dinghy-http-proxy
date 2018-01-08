@@ -66,7 +66,7 @@ requests.
 
 If you want your container to also be available at all subdomains to the given
 domain, prefix a dot `.` to the provided hostname. For instance setting
-`VIRTUAL_HOST=.myrailsapp.docker` will also make your app avaiable at
+`VIRTUAL_HOST=.myrailsapp.docker` will also make your app available at
 `*.myrailsapp.docker`.
 
 This happens automatically for the auto-generated docker-compose hostnames.
